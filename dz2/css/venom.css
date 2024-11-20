@@ -246,6 +246,8 @@ p {
     margin: 10px;
     background-color: rgb(41, 36, 36);
     padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 20px;
 }
 
 .con .con-top {
@@ -506,8 +508,8 @@ p {
         font-family: 'Courier New', Courier, monospace !important;
         gap: 0px !important;
     }
-        div .imdb div{
-            text-align: center !important;
+        div .imdb {
+           display: none !important;
         }
 }
 
@@ -519,6 +521,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
   
 }
 .fote .div1 {
