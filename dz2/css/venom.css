@@ -506,7 +506,7 @@ p {
         font-family: 'Courier New', Courier, monospace !important;
         gap: 0px !important;
     }
-        .imdb div{
+        div .imdb div{
             text-align: center !important;
         }
 }
