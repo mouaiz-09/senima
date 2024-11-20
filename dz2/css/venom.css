@@ -1,0 +1,541 @@
+* {
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+body {
+    background-color: #000000;
+}
+
+.home {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+/*hder*/
+header {
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    background-color: rgb(36, 33, 33);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header .link {
+    width: 50%;
+    padding: 5px 10px;
+
+
+}
+
+.link ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+}
+
+header .logo h1 {
+    font-family: "Cairo Play", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: whitesmoke;
+}
+
+.link ul a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(83, 83, 83);
+    font-family: "Alexandria", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 25px;
+    transition: 0.5s ease-in-out;
+}
+
+.link ul a:hover {
+    box-shadow: 1px 2px 15px #aaaaaa;
+}
+
+/*sid bar*/
+
+.bar {
+    width: 15%;
+
+    background-color: rgb(29, 26, 26);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+.phon {
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+
+}
+
+.phon i {
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.bar .links {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+
+}
+
+.bar .links ul {
+
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bar .links li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+li i {
+    font-size: 25px;
+}
+
+li span {
+    color: whitesmoke;
+
+
+}
+
+.links li {
+
+    padding: 20px 10px;
+    margin: 3px;
+    background-color: gray;
+    transition: 0.3s ease;
+
+}
+
+.links li:hover {
+    box-shadow: 3px 7px 15px #000000 inset;
+    background-color: #4d4a4ac4;
+
+}
+
+.links li a {
+    width: 100%;
+
+    font-family: "Alexandria", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.bar .foter {
+    width: 100%;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.foter a,
+p {
+    font-family: "Akaya Kanadaka", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: whitesmoke;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+/*mdeai*/
+@media only screen and (max-width: 768px) {
+    header {
+        width: 100%;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    div.logo {
+        flex-grow: 1;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    div.logo h1 {
+        font-family: "Cairo Play", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-variation-settings:
+            "slnt" 0;
+    }
+
+    div.link {
+        display: flex;
+        width: 100%;
+        flex-grow: 1;
+        flex-wrap: wrap;
+    }
+
+    div.link ul {
+        display: flex;
+        flex-grow: 1;
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 0;
+
+    }
+
+    div.link ul li {
+        flex-grow: 2;
+
+    }
+
+    div.link ul a {
+        width: 100%;
+        flex-grow: 1;
+    }
+
+    div.bar {
+        display: none;
+    }
+
+
+
+
+}
+
+/*cou*/
+.home .con {
+    width: 90%;
+    margin: 10px;
+    background-color: rgb(41, 36, 36);
+    padding: 10px;
+}
+
+.con .con-top {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.con-top .photo {
+    width: 45%;
+    height: 105dvh;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.photo .imge {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.con-top .inf {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.con-top .inf .tex {
+    width: 100%;
+    text-align: left;
+
+}
+
+.tex h2 {
+    font-family: "Carter One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: small-caps;
+    color: whitesmoke;
+    font-size: 40px;
+}
+
+.inf .des {
+    width: 100%;
+    background-color: rgb(20, 19, 19);
+    direction: rtl;
+    padding: 17px;
+    border-radius: 25px;
+}
+
+.con-top span {
+    color: rgba(221, 221, 221, 0.945);
+}
+
+.con-top p {
+    color: whitesmoke;
+    margin: 0;
+    font-size: large;
+}
+
+.con-top p::after {
+    content: ":"
+}
+
+.des .tag {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.tag .t {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.t a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+    background-color: #474444c7;
+    border-radius: 25px;
+    transition: 0.5s ease-in-out;
+}
+
+.t a:hover {
+    background-color: #585555;
+}
+
+.des .time {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    margin-top: 7px;
+}
+
+.d2 {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.d2 .scour {
+    width: 45%;
+    background-color: rgb(20, 19, 19);
+    height: 100px;
+    border-radius: 25px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.d2 .scour span {
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.d2 .watch {
+    width: 45%;
+    background-color: rgb(20, 19, 19);
+    height: 100px;
+    border-radius: 25px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.d2 .watch a {
+    text-decoration: none;
+    color: whitesmoke;
+    border-radius: 25px;
+    transition: 0.5s ease-in-out;
+    font-size: 25px;
+    font-family: "Readex Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "HEXP" 0;
+    padding: 0;
+    margin: 0;
+}
+
+.con-top .im {
+    text-decoration: none;
+}
+
+.con-top .imdb:hover {
+    background-color: gold;
+    box-shadow:
+        1px 2px 15px whitesmoke;
+
+}
+
+.imdb div:hover {
+    box-shadow:
+        1px 2px 15px rgb(0, 0, 0);
+}
+
+.con-top .imdb {
+    width: 100%;
+    height: 100px;
+    background-color: yellow;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 20px;
+    transition: 0.4s ease-in-out;
+}
+
+.imdb div {
+    background-color: #585555;
+    padding: 10px;
+    border-radius: 30px;
+    transition: 0.5s ease-in-out;
+}
+
+.imdb span {
+    font-size: 20px;
+    text-transform: capitalize;
+
+}
+
+/*madi*/
+@media only screen and (max-width: 768px) {
+    div.home {
+        width: 100%;
+        padding: 0
+    }
+
+    div.con {
+        padding: 0;
+        margin: auto !important;
+        margin-top: 5px !important;
+    }
+
+    div.con-top {
+        flex-wrap: wrap;
+        margin: auto;
+        padding: 10px;
+
+    }
+
+    div.photo {
+        height: 50vh !important;
+        width: 100% !important;
+        margin: 0;
+    }
+
+    div.photo .imge {
+        height: 100%;
+        object-fit: contain;
+    }
+
+    div.inf {
+        width: 100% !important;
+    }
+
+    div.tex {
+        width: 100% !important;
+        text-align: center !important   ;
+
+    }
+
+    div .tex h2 {
+        font-size: 30px !important;
+    }
+
+    div .tag .t {
+        width: 100% !important;
+    }
+
+    div .d2 {
+        width: 100% !important;
+    }
+
+    div .d2 .scour {
+        width: 50 !important;
+        text-align: center !important;
+    }
+
+    div .d2 .watch a {
+        width: 50 !important;
+        font-size: 20px !important;
+        font-family: 'Courier New', Courier, monospace !important;
+        gap: 0px !important;
+    }
+}
+
+.fote {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.fote .div1 {
+    display: flex;
+  gap: 50px;
+}
+.fote .div1 a{
+    text-decoration: none;
+    color: whitesmoke;
+    text-transform: capitalize;
+}
+.di2{
+    text-align: center;
+}
+
+.di2 h2{
+font-family: "Akaya Kanadaka", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: whitesmoke;
+    text-transform: capitalize;
+    text-decoration: none;
+}
