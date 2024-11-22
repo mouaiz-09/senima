@@ -230,6 +230,8 @@ p {
 
     div.link ul li {
         flex-grow: 2;
+            margin-top: 30px;
+            text-align: center;
 
     }
 
