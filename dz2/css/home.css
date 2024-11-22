@@ -230,8 +230,8 @@ p {
 
     div.link ul li {
         flex-grow: 2;
-            margin-top: 30px;
-            text-align: center;
+        margin-top: 30px;
+        text-align: center;
 
     }
 
@@ -286,6 +286,67 @@ p {
     div .photo .imge {
         width: 100% !important;
         flex-grow: 1;
+    }
+}
+
+@media only screen and (width: 1024px) {
+    div .count .watch {
+        flex-wrap: wrap;
+        width: 70% !important;
+        margin: auto;
+    }
+
+    div .watch .card {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    div .watch .card .info {
+        width: 100% !important;
+        justify-content: space-between;
+        height: 100% !important;
+        gap: 60px;
+    }
+
+    div  .card .info li {
+        height: 100% !important;
+        gap: 60px;
+        margin-top: 20px;
+        justify-content: space-between
+    }
+          div .card .info h3{
+            font-size: 45px;
+          }
+        div .card .info  p{
+        font-size: 30px
+       
+        }
+                 div .card .info span{
+                    font-size: 25px
+                 }
+                 div .card .info a{
+                    font-size: 30px;
+                  
+                 }
+
+    div .watch .card .photo {
+        width: 100% !important;
+        height: 50% !important;
+        flex-grow: 1 !important;
+        flex-grow: 2 !important;
+    }
+
+    div .photo .imge {
+        width: 100% !important;
+        flex-grow: 1;
+    }
+    div .bar{
+        position: fixed;
+            top: auto;
+            overflow: scroll;
     }
 }
 
@@ -349,8 +410,8 @@ p {
     flex-grow: 1;
     justify-content: center;
     align-items: center;
-   
-    
+
+
 }
 
 .card:last-child:hover {
@@ -412,7 +473,7 @@ p {
     display: flex;
     align-items: center;
     gap: 10px;
- 
+
 }
 
 
@@ -455,9 +516,11 @@ p {
     padding: 2px 3px;
     border-radius: 5px;
 }
-.watch a{
+
+.watch a {
     text-decoration: none;
 }
+
 .fote {
     width: 50%;
     margin: auto;
@@ -507,4 +570,4 @@ p {
         width: 50 !important;
         text-align: center !important;
     }
-}   
+}
