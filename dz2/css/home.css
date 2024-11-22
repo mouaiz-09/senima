@@ -456,3 +456,53 @@ p {
 .watch a{
     text-decoration: none;
 }
+.fote {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.fote .div1 {
+    display: flex;
+    gap: 50px;
+}
+
+.fote .div1 a {
+    text-decoration: none;
+    color: whitesmoke;
+    text-transform: capitalize;
+}
+
+.di2 {
+    text-align: center;
+}
+
+.di2 h2 {
+    font-family: "Akaya Kanadaka", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: whitesmoke;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+    div .tag .t {
+        width: 100% !important;
+    }
+
+    div .d2 {
+        width: 100% !important;
+    }
+
+    div .d2 .scour {
+        width: 50 !important;
+        text-align: center !important;
+    }
+}   
