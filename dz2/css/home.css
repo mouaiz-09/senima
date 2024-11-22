@@ -271,7 +271,7 @@ p {
     }
 
     div .watch .card {
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         width: 100% !important;
     }
 
