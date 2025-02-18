@@ -27,7 +27,7 @@ Senima is a movie-related website designed to provide users with an engaging pla
 - **GitHub Pages** – For hosting the website.
 ## 📫 Contact
 Feel free to connect with me:
-- Email: [your-email@example.com](mailto:rlqyyn@gmial.com)
+- Email: [rlqyyn@gmial.com](mailto:rlqyyn@gmial.com)
 - GitHub: [@mouaiz-09](https://github.com/mouaiz-09)
 - instgram [@mouaiz-09](https://www.instagram.com/abde.elmouazi/)
 
